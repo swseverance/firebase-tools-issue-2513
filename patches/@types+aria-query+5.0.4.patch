@@ -1,0 +1,13 @@
+diff --git a/node_modules/@types/aria-query/index.d.ts b/node_modules/@types/aria-query/index.d.ts
+index bde27e5..e59cbb2 100644
+--- a/node_modules/@types/aria-query/index.d.ts
++++ b/node_modules/@types/aria-query/index.d.ts
+@@ -1,7 +1,7 @@
+ // Disable automatic exports.
+ export {};
+ 
+-interface MapLike<Key, Value> {
++interface Map Like<Key, Value> {
+     entries: () => Array<[Key, Value]>;
+     get: (key: Key) => Value | undefined;
+     has: (key: Key) => boolean;
